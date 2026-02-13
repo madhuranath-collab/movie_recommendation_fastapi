@@ -1,0 +1,384 @@
+2025-10-28 19:11:21,219 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'pavan', 'email': 'pavan@tudip.com', 'role': 'admin', 'token_expiry': '2025-10-28 15:41:21 UTC', 'timestamp': '2025-10-28 13:41:21 UTC'}
+2025-10-28 19:12:01,635 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'pavan', 'email': 'pavan@tudip.com', 'role': 'admin', 'status': 'active', 'timestamp': '2025-10-28 13:42:01 UTC'}
+2025-10-28 19:14:26,327 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'Admin Access - User List Retrieved', 'admin_user': <app.models.user.User object at 0x792d9d2438c0>, 'total_users': 8, 'timestamp': '2025-10-28 13:44:26 UTC'}
+2025-10-28 19:14:40,749 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Deleted Successfully', 'admin_user': <app.models.user.User object at 0x792d9d243ec0>, 'deleted_user': 'dave', 'deleted_user_id': 4, 'timestamp': '2025-10-28 13:44:40 UTC'}
+2025-10-28 19:14:57,603 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged Out Successfully', 'user': <app.models.user.User object at 0x792d9d240dd0>, 'status': 'suspended', 'timestamp': '2025-10-28 13:44:57 UTC'}
+2025-10-29 11:00:24,380 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-29 05:30:24 UTC'}
+2025-10-29 11:00:24,407 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-29 05:30:24 UTC'}
+2025-10-29 11:01:32,727 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 05:31:32 UTC'}
+2025-10-29 11:01:32,879 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 05:31:32 UTC'}
+2025-10-29 11:02:18,092 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-29 05:32:18 UTC'}
+2025-10-29 11:02:18,264 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'pavan', 'email': 'pavan@tudip.com', 'role': 'admin', 'token_expiry': '2025-10-29 07:32:18 UTC', 'timestamp': '2025-10-29 05:32:18 UTC'}
+2025-10-29 11:02:39,035 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 16, 'timestamp': '2025-10-29 05:32:39 UTC'}
+2025-10-29 11:02:39,038 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'pavan', 'email': 'pavan@tudip.com', 'role': 'admin', 'status': 'active', 'timestamp': '2025-10-29 05:32:39 UTC'}
+2025-10-29 11:03:03,024 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 16, 'timestamp': '2025-10-29 05:33:03 UTC'}
+2025-10-29 11:03:03,028 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User List Retrieved', 'total_users': 7, 'timestamp': '2025-10-29 05:33:03 UTC'}
+2025-10-29 11:03:03,028 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'Admin Access - User List Retrieved', 'admin_user': <app.models.user.User object at 0x709e9810aea0>, 'total_users': 7, 'timestamp': '2025-10-29 05:33:03 UTC'}
+2025-10-29 11:03:24,794 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 16, 'timestamp': '2025-10-29 05:33:24 UTC'}
+2025-10-29 11:03:24,816 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Deleted Successfully', 'admin_user': <app.models.user.User object at 0x709e9810bc20>, 'deleted_user': 'eve', 'deleted_user_id': 5, 'timestamp': '2025-10-29 05:33:24 UTC'}
+2025-10-29 11:03:35,728 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 16, 'timestamp': '2025-10-29 05:33:35 UTC'}
+2025-10-29 11:03:35,750 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged Out Successfully', 'user': <app.models.user.User object at 0x709e9810bd40>, 'status': 'suspended', 'timestamp': '2025-10-29 05:33:35 UTC'}
+2025-10-29 13:57:51,642 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-29 08:27:51 UTC'}
+2025-10-29 13:57:51,665 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-29 08:27:51 UTC'}
+2025-10-29 13:58:08,482 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 08:28:08 UTC'}
+2025-10-29 13:58:08,606 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 08:28:08 UTC'}
+2025-10-29 14:00:49,544 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 08:30:49 UTC'}
+2025-10-29 14:00:49,614 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 08:30:49 UTC'}
+2025-10-29 14:01:11,847 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 08:31:11 UTC'}
+2025-10-29 14:01:11,915 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 08:31:11 UTC'}
+2025-10-29 14:01:36,956 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 08:31:36 UTC'}
+2025-10-29 14:01:37,017 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 08:31:37 UTC'}
+2025-10-29 14:02:13,297 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 08:32:13 UTC'}
+2025-10-29 14:02:13,370 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 08:32:13 UTC'}
+2025-10-29 14:03:29,216 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/watchlist/watchlist', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-29 08:33:29 UTC'}
+2025-10-29 14:08:47,911 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 08:38:47 UTC'}
+2025-10-29 14:08:48,000 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 08:38:48 UTC'}
+2025-10-29 14:09:17,516 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-29 08:39:17 UTC'}
+2025-10-29 14:09:17,674 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-29 10:39:18 UTC', 'timestamp': '2025-10-29 08:39:17 UTC'}
+2025-10-29 14:10:41,418 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 08:40:41 UTC'}
+2025-10-29 14:20:29,436 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 08:50:29 UTC'}
+2025-10-29 14:20:29,497 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 08:50:29 UTC'}
+2025-10-29 14:33:59,301 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-29 09:03:59 UTC'}
+2025-10-29 14:33:59,407 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-29 11:03:59 UTC', 'timestamp': '2025-10-29 09:03:59 UTC'}
+2025-10-29 14:34:20,118 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 09:04:20 UTC'}
+2025-10-29 15:22:49,225 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 15:22:49 UTC'}
+2025-10-29 15:22:49,275 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 15:22:49 UTC'}
+2025-10-29 15:23:19,188 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-29 15:23:19 UTC'}
+2025-10-29 15:23:19,296 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-29 11:53:19 UTC', 'timestamp': '2025-10-29 09:53:19 UTC'}
+2025-10-29 15:35:06,010 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 15:35:06 UTC'}
+2025-10-29 15:35:06,056 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 15:35:06 UTC'}
+2025-10-29 15:35:45,162 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-29 15:35:45 UTC'}
+2025-10-29 15:35:45,265 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-29 12:05:45 UTC', 'timestamp': '2025-10-29 10:05:45 UTC'}
+2025-10-29 15:36:09,714 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 10:06:09 UTC'}
+2025-10-29 15:38:19,932 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 10:08:19 UTC'}
+2025-10-29 15:38:36,738 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 10:08:36 UTC'}
+2025-10-29 15:38:36,740 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-29 10:08:36 UTC'}
+2025-10-29 15:42:09,277 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 10:12:09 UTC'}
+2025-10-29 15:43:58,983 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 10:13:58 UTC'}
+2025-10-29 16:10:15,830 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 16:10:15 UTC'}
+2025-10-29 16:10:15,889 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 16:10:15 UTC'}
+2025-10-29 16:11:51,113 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-29 16:11:51 UTC'}
+2025-10-29 16:11:51,131 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-29 16:11:51 UTC'}
+2025-10-29 16:11:59,586 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 16:11:59 UTC'}
+2025-10-29 16:11:59,658 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 16:11:59 UTC'}
+2025-10-29 16:55:44,085 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 16:55:44 UTC'}
+2025-10-29 16:55:44,140 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 16:55:44 UTC'}
+2025-10-29 16:56:46,910 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 16:56:46 UTC'}
+2025-10-29 16:56:46,952 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 16:56:46 UTC'}
+2025-10-29 17:17:40,072 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-29 17:17:40 UTC'}
+2025-10-29 17:17:40,229 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-29 13:47:40 UTC', 'timestamp': '2025-10-29 11:47:40 UTC'}
+2025-10-29 17:18:07,315 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 11:48:07 UTC'}
+2025-10-29 17:18:07,318 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-29 11:48:07 UTC'}
+2025-10-29 17:18:20,218 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 11:48:20 UTC'}
+2025-10-29 17:19:30,189 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 11:49:30 UTC'}
+2025-10-29 17:19:53,240 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 11:49:53 UTC'}
+2025-10-29 17:20:16,794 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 11:50:16 UTC'}
+2025-10-29 17:20:48,393 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 11:50:48 UTC'}
+2025-10-29 19:52:35,388 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 19:52:35 UTC'}
+2025-10-29 19:52:35,453 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 19:52:35 UTC'}
+2025-10-29 19:54:29,365 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-29 19:54:29 UTC'}
+2025-10-29 19:54:29,412 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-29 19:54:29 UTC'}
+2025-10-29 19:55:57,522 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-29 19:55:57 UTC'}
+2025-10-29 19:55:57,630 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-29 16:25:58 UTC', 'timestamp': '2025-10-29 14:25:57 UTC'}
+2025-10-29 19:56:28,946 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 14:26:28 UTC'}
+2025-10-29 19:56:28,949 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-29 14:26:28 UTC'}
+2025-10-29 19:56:57,571 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 14:26:57 UTC'}
+2025-10-29 19:57:12,250 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 14:27:12 UTC'}
+2025-10-29 20:00:05,434 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 14:30:05 UTC'}
+2025-10-29 20:01:08,336 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 14:31:08 UTC'}
+2025-10-29 20:02:56,985 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-29 14:32:56 UTC'}
+2025-10-30 11:29:29,046 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 11:29:29 UTC'}
+2025-10-30 11:29:29,076 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 11:29:29 UTC'}
+2025-10-30 11:29:38,496 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 11:29:38 UTC'}
+2025-10-30 11:29:38,602 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 11:29:38 UTC'}
+2025-10-30 11:30:12,142 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 11:30:12 UTC'}
+2025-10-30 11:30:12,300 | WARNING | auth | auth | user=N/A | route=N/A | message={'event': 'Login Failed', 'email': 'madhu@tudip.com', 'reason': 'Invalid credentials', 'timestamp': '2025-10-30 06:00:12 UTC'}
+2025-10-30 11:30:27,903 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 11:30:27 UTC'}
+2025-10-30 11:30:28,013 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-30 08:00:28 UTC', 'timestamp': '2025-10-30 06:00:28 UTC'}
+2025-10-30 11:30:55,729 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:00:55 UTC'}
+2025-10-30 11:30:55,733 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-30 06:00:55 UTC'}
+2025-10-30 11:31:18,756 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:01:18 UTC'}
+2025-10-30 11:32:15,275 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:02:15 UTC'}
+2025-10-30 11:32:22,997 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:02:22 UTC'}
+2025-10-30 11:32:30,303 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:02:30 UTC'}
+2025-10-30 11:33:05,753 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:03:05 UTC'}
+2025-10-30 11:33:19,610 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:03:19 UTC'}
+2025-10-30 11:33:55,915 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:03:55 UTC'}
+2025-10-30 11:41:31,584 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:11:31 UTC'}
+2025-10-30 11:49:03,447 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:19:03 UTC'}
+2025-10-30 11:53:17,975 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:23:17 UTC'}
+2025-10-30 11:53:45,240 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:23:45 UTC'}
+2025-10-30 11:57:30,746 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:27:30 UTC'}
+2025-10-30 11:58:18,027 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:28:18 UTC'}
+2025-10-30 11:58:36,585 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:28:36 UTC'}
+2025-10-30 12:00:09,174 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:30:09 UTC'}
+2025-10-30 12:00:44,819 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:30:44 UTC'}
+2025-10-30 12:03:03,911 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:33:03 UTC'}
+2025-10-30 12:19:51,935 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:49:51 UTC'}
+2025-10-30 12:20:07,696 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:50:07 UTC'}
+2025-10-30 12:20:32,313 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:50:32 UTC'}
+2025-10-30 12:20:41,487 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:50:41 UTC'}
+2025-10-30 12:21:03,398 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:51:03 UTC'}
+2025-10-30 12:21:24,888 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:51:24 UTC'}
+2025-10-30 12:21:54,215 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:51:54 UTC'}
+2025-10-30 12:22:25,430 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:52:25 UTC'}
+2025-10-30 12:22:36,285 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:52:36 UTC'}
+2025-10-30 12:24:10,286 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:54:10 UTC'}
+2025-10-30 12:24:16,496 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:54:16 UTC'}
+2025-10-30 12:24:32,071 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 06:54:32 UTC'}
+2025-10-30 12:36:31,403 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:06:31 UTC'}
+2025-10-30 12:37:59,836 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:07:59 UTC'}
+2025-10-30 12:44:44,709 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:14:44 UTC'}
+2025-10-30 12:44:53,107 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:14:53 UTC'}
+2025-10-30 12:50:59,680 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:20:59 UTC'}
+2025-10-30 12:51:38,226 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:21:38 UTC'}
+2025-10-30 12:55:42,445 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:25:42 UTC'}
+2025-10-30 12:55:50,314 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:25:50 UTC'}
+2025-10-30 12:56:03,141 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:26:03 UTC'}
+2025-10-30 12:56:32,144 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:26:32 UTC'}
+2025-10-30 12:58:14,258 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:28:14 UTC'}
+2025-10-30 12:59:02,730 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:29:02 UTC'}
+2025-10-30 12:59:15,529 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:29:15 UTC'}
+2025-10-30 13:07:07,093 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 07:37:07 UTC'}
+2025-10-30 13:59:10,458 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 13:59:10 UTC'}
+2025-10-30 13:59:10,548 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 13:59:10 UTC'}
+2025-10-30 13:59:26,221 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/watchlist/{summary}', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 13:59:26 UTC'}
+2025-10-30 14:01:20,277 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 14:01:20 UTC'}
+2025-10-30 14:01:20,367 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 14:01:20 UTC'}
+2025-10-30 14:02:49,787 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/register', 'method': 'POST', 'timestamp': '2025-10-30 14:02:49 UTC'}
+2025-10-30 14:02:49,927 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Registered', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'timestamp': '2025-10-30 08:32:49 UTC'}
+2025-10-30 14:03:27,471 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 14:03:27 UTC'}
+2025-10-30 14:03:27,583 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'token_expiry': '2025-10-30 10:33:28 UTC', 'timestamp': '2025-10-30 08:33:27 UTC'}
+2025-10-30 14:04:05,232 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 08:34:05 UTC'}
+2025-10-30 14:04:05,236 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'status': 'active', 'timestamp': '2025-10-30 08:34:05 UTC'}
+2025-10-30 14:04:16,830 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 08:34:16 UTC'}
+2025-10-30 14:04:16,836 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User List Retrieved', 'total_users': 7, 'timestamp': '2025-10-30 08:34:16 UTC'}
+2025-10-30 14:04:16,836 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'Admin Access - User List Retrieved', 'admin_user': <app.models.user.User object at 0x754d09e758b0>, 'total_users': 7, 'timestamp': '2025-10-30 08:34:16 UTC'}
+2025-10-30 14:05:39,300 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/auth/users', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 14:05:39 UTC'}
+2025-10-30 14:11:47,433 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/auth/users', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 14:11:47 UTC'}
+2025-10-30 14:14:31,021 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/auth/users', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 14:14:31 UTC'}
+2025-10-30 14:15:05,487 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 14:15:05 UTC'}
+2025-10-30 14:15:05,539 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 14:15:05 UTC'}
+2025-10-30 14:15:57,574 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 14:15:57 UTC'}
+2025-10-30 14:15:57,684 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'token_expiry': '2025-10-30 10:45:58 UTC', 'timestamp': '2025-10-30 08:45:57 UTC'}
+2025-10-30 14:16:28,116 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 08:46:28 UTC'}
+2025-10-30 14:16:28,119 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'status': 'active', 'timestamp': '2025-10-30 08:46:28 UTC'}
+2025-10-30 14:16:48,378 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 08:46:48 UTC'}
+2025-10-30 14:16:48,381 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User List Retrieved', 'total_users': 7, 'timestamp': '2025-10-30 08:46:48 UTC'}
+2025-10-30 14:16:48,381 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'Admin Access - User List Retrieved', 'admin_user': <app.models.user.User object at 0x701da635fb00>, 'total_users': 7, 'timestamp': '2025-10-30 08:46:48 UTC'}
+2025-10-30 14:17:33,785 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 08:47:33 UTC'}
+2025-10-30 14:17:33,868 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Updated Successfully', 'user_id': 17, 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'timestamp': '2025-10-30 08:47:33 UTC'}
+2025-10-30 14:18:17,662 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 08:48:17 UTC'}
+2025-10-30 14:18:17,764 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Updated Successfully', 'user_id': 17, 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'timestamp': '2025-10-30 08:48:17 UTC'}
+2025-10-30 14:18:56,969 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 08:48:56 UTC'}
+2025-10-30 14:18:56,988 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Deleted Successfully', 'admin_user': <app.models.user.User object at 0x7259db37dc40>, 'deleted_user': 'frank', 'deleted_user_id': 6, 'timestamp': '2025-10-30 08:48:56 UTC'}
+2025-10-30 14:33:13,240 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:03:13 UTC'}
+2025-10-30 14:35:14,594 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:05:14 UTC'}
+2025-10-30 14:35:24,924 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:05:24 UTC'}
+2025-10-30 14:36:47,924 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:06:47 UTC'}
+2025-10-30 14:36:59,988 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:06:59 UTC'}
+2025-10-30 14:37:26,318 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:07:26 UTC'}
+2025-10-30 14:37:46,062 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:07:46 UTC'}
+2025-10-30 14:40:35,662 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:10:35 UTC'}
+2025-10-30 14:40:46,467 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:10:46 UTC'}
+2025-10-30 14:53:56,535 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 14:53:56 UTC'}
+2025-10-30 14:53:56,552 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 14:53:56 UTC'}
+2025-10-30 14:54:10,297 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 14:54:10 UTC'}
+2025-10-30 14:54:10,366 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 14:54:10 UTC'}
+2025-10-30 14:54:23,637 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/watchlist/summary/all', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 14:54:23 UTC'}
+2025-10-30 14:59:35,404 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 14:59:35 UTC'}
+2025-10-30 14:59:35,428 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 14:59:35 UTC'}
+2025-10-30 15:03:28,366 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 15:03:28 UTC'}
+2025-10-30 15:03:28,438 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 15:03:28 UTC'}
+2025-10-30 15:04:50,857 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 15:04:50 UTC'}
+2025-10-30 15:04:50,963 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'token_expiry': '2025-10-30 11:34:51 UTC', 'timestamp': '2025-10-30 09:34:50 UTC'}
+2025-10-30 15:05:21,948 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:35:21 UTC'}
+2025-10-30 15:05:37,271 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:35:37 UTC'}
+2025-10-30 15:06:14,568 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:36:14 UTC'}
+2025-10-30 15:06:34,020 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:36:34 UTC'}
+2025-10-30 15:06:46,784 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:36:46 UTC'}
+2025-10-30 15:06:58,369 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:36:58 UTC'}
+2025-10-30 15:24:12,279 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:54:12 UTC'}
+2025-10-30 15:24:25,044 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:54:25 UTC'}
+2025-10-30 15:24:36,069 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:54:36 UTC'}
+2025-10-30 15:24:46,424 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:54:46 UTC'}
+2025-10-30 15:24:56,209 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:54:56 UTC'}
+2025-10-30 15:25:05,526 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 09:55:05 UTC'}
+2025-10-30 16:42:37,462 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 16:42:37 UTC'}
+2025-10-30 16:42:37,554 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 16:42:37 UTC'}
+2025-10-30 16:43:51,870 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 16:43:51 UTC'}
+2025-10-30 16:43:52,018 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-30 13:13:52 UTC', 'timestamp': '2025-10-30 11:13:52 UTC'}
+2025-10-30 16:44:28,084 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 11:14:28 UTC'}
+2025-10-30 17:25:24,496 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 17:25:24 UTC'}
+2025-10-30 17:25:24,574 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 17:25:24 UTC'}
+2025-10-30 17:26:03,631 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 17:26:03 UTC'}
+2025-10-30 17:26:03,802 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'token_expiry': '2025-10-30 13:56:03 UTC', 'timestamp': '2025-10-30 11:56:03 UTC'}
+2025-10-30 17:26:27,083 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 11:56:27 UTC'}
+2025-10-30 17:26:27,087 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'status': 'active', 'timestamp': '2025-10-30 11:56:27 UTC'}
+2025-10-30 17:26:38,431 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 11:56:38 UTC'}
+2025-10-30 17:26:38,437 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User List Retrieved', 'total_users': 6, 'timestamp': '2025-10-30 11:56:38 UTC'}
+2025-10-30 17:26:38,437 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'Admin Access - User List Retrieved', 'admin_user': <app.models.user.User object at 0x72c589c5fb60>, 'total_users': 6, 'timestamp': '2025-10-30 11:56:38 UTC'}
+2025-10-30 17:27:48,197 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 11:57:48 UTC'}
+2025-10-30 17:27:48,300 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User Updated Successfully', 'user_id': 17, 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'admin', 'timestamp': '2025-10-30 11:57:48 UTC'}
+2025-10-30 17:28:43,403 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 11:58:43 UTC'}
+2025-10-30 17:28:43,423 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Deleted Successfully', 'admin_user': <app.models.user.User object at 0x72c589ca6900>, 'deleted_user': 'grace', 'deleted_user_id': 7, 'timestamp': '2025-10-30 11:58:43 UTC'}
+2025-10-30 17:29:12,499 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 11:59:12 UTC'}
+2025-10-30 17:29:12,609 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User Updated Successfully', 'user_id': 17, 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'timestamp': '2025-10-30 11:59:12 UTC'}
+2025-10-30 17:30:31,601 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 12:00:31 UTC'}
+2025-10-30 17:30:46,231 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 12:00:46 UTC'}
+2025-10-30 17:30:46,247 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User Logged Out Successfully', 'user': <app.models.user.User object at 0x72c589cd8d70>, 'status': 'suspended', 'timestamp': '2025-10-30 12:00:46 UTC'}
+2025-10-30 18:22:19,608 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 18:22:19 UTC'}
+2025-10-30 18:22:19,683 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 18:22:19 UTC'}
+2025-10-30 18:25:15,480 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 18:25:15 UTC'}
+2025-10-30 18:25:15,541 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 18:25:15 UTC'}
+2025-10-30 18:43:47,762 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 18:43:47 UTC'}
+2025-10-30 18:43:47,848 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 18:43:47 UTC'}
+2025-10-30 18:43:52,051 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 18:43:52 UTC'}
+2025-10-30 18:43:52,086 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 18:43:52 UTC'}
+2025-10-30 18:44:14,837 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 18:44:14 UTC'}
+2025-10-30 18:44:14,870 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 18:44:14 UTC'}
+2025-10-30 19:02:37,299 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '//auth/register', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 19:02:37 UTC'}
+2025-10-30 19:03:18,539 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '//auth/register', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 19:03:18 UTC'}
+2025-10-30 19:07:04,248 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/register', 'method': 'POST', 'timestamp': '2025-10-30 19:07:04 UTC'}
+2025-10-30 19:09:21,422 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-30 19:09:21 UTC'}
+2025-10-30 19:09:21,488 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-30 19:09:21 UTC'}
+2025-10-30 19:09:45,662 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/register', 'method': 'POST', 'timestamp': '2025-10-30 19:09:45 UTC'}
+2025-10-30 19:09:57,088 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/register', 'method': 'POST', 'timestamp': '2025-10-30 19:09:57 UTC'}
+2025-10-30 19:09:57,171 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Registered', 'username': 'swaroop', 'email': 'swaroop@tudip.com', 'role': 'user', 'timestamp': '2025-10-30 13:39:57 UTC'}
+2025-10-30 19:11:22,836 | DEBUG | auth | middleware | user=N/A | route=N/A | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 19:11:22 UTC'}
+2025-10-30 19:11:22,918 | INFO | auth | user | user=N/A | route=N/A | message={'event': 'User Logged In', 'username': 'swaroop', 'email': 'swaroop@tudip.com', 'role': 'user', 'token_expiry': '2025-10-30 15:41:22 UTC', 'timestamp': '2025-10-30 13:41:22 UTC'}
+2025-10-30 19:12:16,814 | WARNING | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verification Failed', 'reason': 'Invalid or expired token', 'error': 'Not enough segments', 'timestamp': '2025-10-30 13:42:16 UTC'}
+2025-10-30 19:12:16,814 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/auth/me', 'reason': 'Invalid or expired token', 'timestamp': '2025-10-30 13:42:16 UTC'}
+2025-10-30 19:13:35,042 | WARNING | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verification Failed', 'reason': 'Invalid or expired token', 'error': 'Not enough segments', 'timestamp': '2025-10-30 13:43:35 UTC'}
+2025-10-30 19:13:35,042 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/auth/me', 'reason': 'Invalid or expired token', 'timestamp': '2025-10-30 13:43:35 UTC'}
+2025-10-30 19:14:18,197 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 18, 'timestamp': '2025-10-30 13:44:18 UTC'}
+2025-10-30 19:14:18,200 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'swaroop', 'email': 'swaroop@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-30 13:44:18 UTC'}
+2025-10-30 19:14:37,302 | WARNING | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verification Failed', 'reason': 'Invalid or expired token', 'error': 'Not enough segments', 'timestamp': '2025-10-30 13:44:37 UTC'}
+2025-10-30 19:14:37,302 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/auth/me', 'reason': 'Invalid or expired token', 'timestamp': '2025-10-30 13:44:37 UTC'}
+2025-10-30 19:14:37,317 | WARNING | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verification Failed', 'reason': 'Invalid or expired token', 'error': 'Not enough segments', 'timestamp': '2025-10-30 13:44:37 UTC'}
+2025-10-30 19:14:37,317 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/auth/me', 'reason': 'Invalid or expired token', 'timestamp': '2025-10-30 13:44:37 UTC'}
+2025-10-30 19:15:35,946 | WARNING | auth | middleware | user=N/A | route=N/A | message={'event': 'Authorization Failed', 'path': '/auth/me', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-30 19:15:35 UTC'}
+2025-10-30 19:16:09,530 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 18, 'timestamp': '2025-10-30 13:46:09 UTC'}
+2025-10-30 19:16:09,532 | INFO | auth | auth | user=N/A | route=N/A | message={'event': 'User Profile Retrieved', 'username': 'swaroop', 'email': 'swaroop@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-30 13:46:09 UTC'}
+2025-10-30 19:17:15,603 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 18, 'timestamp': '2025-10-30 13:47:15 UTC'}
+2025-10-30 19:17:53,416 | DEBUG | auth | security | user=N/A | route=N/A | message={'event': 'JWT Verified', 'user_id': 18, 'timestamp': '2025-10-30 13:47:53 UTC'}
+2025-10-30 19:48:25,239 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 18, 'timestamp': '2025-10-30 14:18:25 UTC'}
+2025-10-30 19:48:25,268 | INFO | auth | auth | message={'event': 'User Profile Retrieved', 'username': 'swaroop', 'email': 'swaroop@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-30 14:18:25 UTC'}
+2025-10-30 19:51:32,167 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 18, 'timestamp': '2025-10-30 14:21:32 UTC'}
+2025-10-30 19:53:15,001 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 19:53:15 UTC'}
+2025-10-30 19:53:15,007 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'badri@tudip.com', 'timestamp': '2025-10-30 14:23:15 UTC'}
+2025-10-30 19:53:15,095 | INFO | auth | user | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'token_expiry': '2025-10-30 16:23:15 UTC', 'timestamp': '2025-10-30 14:23:15 UTC'}
+2025-10-30 19:53:46,248 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-30 14:23:46 UTC'}
+2025-10-30 19:54:18,272 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-30 19:54:18 UTC'}
+2025-10-30 19:54:18,273 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'madhu@tudip.com', 'timestamp': '2025-10-30 14:24:18 UTC'}
+2025-10-30 19:54:18,364 | INFO | auth | user | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2025-10-30 16:24:18 UTC', 'timestamp': '2025-10-30 14:24:18 UTC'}
+2025-10-30 19:54:39,362 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 14:24:39 UTC'}
+2025-10-30 19:54:47,964 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 14:24:47 UTC'}
+2025-10-30 19:58:09,483 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 14:28:09 UTC'}
+2025-10-30 19:58:09,485 | INFO | auth | auth | message={'event': 'User Profile Retrieved', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-30 14:28:09 UTC'}
+2025-10-30 19:58:59,902 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 14:28:59 UTC'}
+2025-10-30 19:59:38,711 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2025-10-30 14:29:38 UTC'}
+2025-10-31 11:35:39,162 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 11:35:39 UTC'}
+2025-10-31 11:35:39,181 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 11:35:39 UTC'}
+2025-10-31 11:35:45,274 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-31 11:35:45 UTC'}
+2025-10-31 11:35:45,415 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-31 11:35:45 UTC'}
+2025-10-31 11:36:22,757 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-31 11:36:22 UTC'}
+2025-10-31 11:36:22,771 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'badri@tudip.com', 'timestamp': '2025-10-31 06:06:22 UTC'}
+2025-10-31 11:36:22,882 | INFO | auth | user | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'token_expiry': '2025-10-31 08:06:22 UTC', 'timestamp': '2025-10-31 06:06:22 UTC'}
+2025-10-31 11:37:28,253 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 06:07:28 UTC'}
+2025-10-31 11:37:53,260 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 06:07:53 UTC'}
+2025-10-31 11:39:09,268 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 06:09:09 UTC'}
+2025-10-31 11:39:09,270 | INFO | auth | auth | message={'event': 'User Profile Retrieved', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-31 06:09:09 UTC'}
+2025-10-31 11:52:25,172 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 06:22:25 UTC'}
+2025-10-31 12:23:50,709 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 06:53:50 UTC'}
+2025-10-31 12:28:37,980 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 06:58:37 UTC'}
+2025-10-31 12:30:54,117 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 07:00:54 UTC'}
+2025-10-31 18:45:00,813 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 18:45:00 UTC'}
+2025-10-31 18:45:00,835 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 18:45:00 UTC'}
+2025-10-31 18:45:06,992 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-31 18:45:06 UTC'}
+2025-10-31 18:45:07,138 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-31 18:45:07 UTC'}
+2025-10-31 18:46:18,635 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-10-31 18:46:18 UTC'}
+2025-10-31 18:46:18,639 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'badri@tudip.com', 'timestamp': '2025-10-31 13:16:18 UTC'}
+2025-10-31 18:46:18,742 | INFO | auth | user | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'token_expiry': '2025-10-31 15:16:18 UTC', 'timestamp': '2025-10-31 13:16:18 UTC'}
+2025-10-31 18:46:47,978 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 13:16:47 UTC'}
+2025-10-31 18:46:47,981 | INFO | auth | auth | message={'event': 'User Profile Retrieved', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-31 13:16:47 UTC'}
+2025-10-31 18:47:16,124 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 13:17:16 UTC'}
+2025-10-31 18:48:03,654 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 13:18:03 UTC'}
+2025-10-31 18:48:26,780 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 13:18:26 UTC'}
+2025-10-31 18:48:26,782 | INFO | auth | auth | message={'event': 'User Profile Retrieved', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2025-10-31 13:18:26 UTC'}
+2025-10-31 18:49:43,076 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 13:19:43 UTC'}
+2025-10-31 18:50:02,479 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 13:20:02 UTC'}
+2025-10-31 18:50:40,260 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 13:20:40 UTC'}
+2025-10-31 18:51:17,980 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-10-31 13:21:17 UTC'}
+2025-10-31 22:36:03,936 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 22:36:03 UTC'}
+2025-10-31 22:36:04,036 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 22:36:04 UTC'}
+2025-10-31 22:36:08,517 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-10-31 22:36:08 UTC'}
+2025-10-31 22:36:08,668 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-10-31 22:36:08 UTC'}
+2025-10-31 22:36:59,416 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/auth/streaming', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 22:36:59 UTC'}
+2025-10-31 22:37:27,868 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/auth/streaming', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 22:37:27 UTC'}
+2025-10-31 22:40:38,076 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/auth/streaming', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-10-31 22:40:38 UTC'}
+2025-10-31 22:40:57,075 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/streaming', 'method': 'POST', 'timestamp': '2025-10-31 22:40:57 UTC'}
+2025-10-31 22:54:45,673 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/streaming', 'method': 'POST', 'timestamp': '2025-10-31 22:54:45 UTC'}
+2025-10-31 22:56:14,472 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/streaming', 'method': 'POST', 'timestamp': '2025-10-31 22:56:14 UTC'}
+2025-10-31 22:59:06,882 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/streaming', 'method': 'POST', 'timestamp': '2025-10-31 22:59:06 UTC'}
+2025-10-31 23:00:39,259 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/streaming', 'method': 'POST', 'timestamp': '2025-10-31 23:00:39 UTC'}
+2025-10-31 23:02:39,882 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/streaming', 'method': 'POST', 'timestamp': '2025-10-31 23:02:39 UTC'}
+2025-10-31 23:04:31,316 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/streaming', 'method': 'POST', 'timestamp': '2025-10-31 23:04:31 UTC'}
+2025-11-01 17:13:22,865 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-11-01 17:13:22 UTC'}
+2025-11-01 17:13:22,884 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-11-01 17:13:22 UTC'}
+2025-11-01 17:13:28,508 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-11-01 17:13:28 UTC'}
+2025-11-01 17:13:28,581 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-11-01 17:13:28 UTC'}
+2025-11-01 17:14:04,036 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-11-01 17:14:04 UTC'}
+2025-11-01 17:14:04,052 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'badri@tudip.com', 'timestamp': '2025-11-01 11:44:04 UTC'}
+2025-11-01 17:14:04,153 | INFO | auth | user | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'token_expiry': '2025-11-01 13:44:04 UTC', 'timestamp': '2025-11-01 11:44:04 UTC'}
+2025-11-01 17:17:26,725 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-11-01 11:47:26 UTC'}
+2025-11-01 17:19:26,794 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-11-01 11:49:26 UTC'}
+2025-11-01 17:21:50,001 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-11-01 17:21:50 UTC'}
+2025-11-01 17:21:50,020 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-11-01 17:21:50 UTC'}
+2025-11-01 17:21:57,269 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-11-01 17:21:57 UTC'}
+2025-11-01 17:21:57,350 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-11-01 17:21:57 UTC'}
+2025-11-01 17:22:32,533 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-11-01 17:22:32 UTC'}
+2025-11-01 17:22:32,538 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'badri@tudip.com', 'timestamp': '2025-11-01 11:52:32 UTC'}
+2025-11-01 17:22:32,637 | WARNING | auth | user | message={'event': 'Login Failed', 'email': 'badri@tudip.com', 'reason': 'Invalid credentials', 'timestamp': '2025-11-01 11:52:32 UTC'}
+2025-11-01 17:22:45,009 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2025-11-01 17:22:45 UTC'}
+2025-11-01 17:22:45,011 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'badri@tudip.com', 'timestamp': '2025-11-01 11:52:45 UTC'}
+2025-11-01 17:22:45,102 | INFO | auth | user | message={'event': 'User Logged In', 'username': 'badri', 'email': 'badri@tudip.com', 'role': 'user', 'token_expiry': '2025-11-01 13:52:45 UTC', 'timestamp': '2025-11-01 11:52:45 UTC'}
+2025-11-01 17:24:07,834 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 17, 'timestamp': '2025-11-01 11:54:07 UTC'}
+2025-11-01 17:24:07,849 | WARNING | auth | handlers | message=Watchlist error: Movie with ID 2 does not exist. | Path: /watchlist/2
+2025-11-03 14:31:35,108 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-11-03 14:31:35 UTC'}
+2025-11-03 14:31:35,126 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-11-03 14:31:35 UTC'}
+2025-11-03 14:31:42,116 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-11-03 14:31:42 UTC'}
+2025-11-03 14:31:42,408 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-11-03 14:31:42 UTC'}
+2025-11-03 14:32:27,160 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/register', 'method': 'POST', 'timestamp': '2025-11-03 14:32:27 UTC'}
+2025-11-03 14:32:47,989 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/register', 'method': 'POST', 'timestamp': '2025-11-03 14:32:47 UTC'}
+2025-11-07 17:03:29,747 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-11-07 17:03:29 UTC'}
+2025-11-07 17:03:29,770 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2025-11-07 17:03:29 UTC'}
+2025-11-07 17:03:34,340 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2025-11-07 17:03:34 UTC'}
+2025-11-07 17:03:34,559 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2025-11-07 17:03:34 UTC'}
+2026-01-09 16:41:36,028 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2026-01-09 16:41:36 UTC'}
+2026-01-09 16:41:36,073 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2026-01-09 16:41:36 UTC'}
+2026-01-09 16:41:41,979 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2026-01-09 16:41:41 UTC'}
+2026-01-09 16:41:42,526 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2026-01-09 16:41:42 UTC'}
+2026-01-09 16:46:17,358 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2026-01-09 16:46:17 UTC'}
+2026-01-09 16:46:17,380 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'madhu@tudip.com', 'timestamp': '2026-01-09 11:16:17 UTC'}
+2026-01-09 16:46:17,543 | INFO | auth | user | message={'event': 'User Logged In', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'token_expiry': '2026-01-09 13:16:17 UTC', 'timestamp': '2026-01-09 11:16:17 UTC'}
+2026-01-09 16:47:14,261 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 13, 'timestamp': '2026-01-09 11:17:14 UTC'}
+2026-01-09 16:47:14,265 | INFO | auth | auth | message={'event': 'User Profile Retrieved', 'username': 'madhu', 'email': 'madhu@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2026-01-09 11:17:14 UTC'}
+2026-02-12 13:16:58,855 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2026-02-12 13:16:58 UTC'}
+2026-02-12 13:16:58,932 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/favicon.ico', 'reason': 'Missing or invalid Authorization header', 'timestamp': '2026-02-12 13:16:58 UTC'}
+2026-02-12 13:17:12,283 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/docs', 'method': 'GET', 'timestamp': '2026-02-12 13:17:12 UTC'}
+2026-02-12 13:17:13,128 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/openapi.json', 'method': 'GET', 'timestamp': '2026-02-12 13:17:13 UTC'}
+2026-02-12 13:21:08,410 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/register', 'method': 'POST', 'timestamp': '2026-02-12 13:21:08 UTC'}
+2026-02-12 13:21:55,102 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/register', 'method': 'POST', 'timestamp': '2026-02-12 13:21:55 UTC'}
+2026-02-12 13:21:55,238 | INFO | auth | auth | message={'event': 'User Registered', 'username': 'siva', 'email': 'siva@tudip.com', 'role': 'user', 'timestamp': '2026-02-12 07:51:55 UTC'}
+2026-02-12 13:22:59,459 | DEBUG | auth | middleware | message={'event': 'Auth Skipped (Exempt Path)', 'path': '/auth/login', 'method': 'POST', 'timestamp': '2026-02-12 13:22:59 UTC'}
+2026-02-12 13:22:59,479 | INFO | auth | auth | message={'event': 'User Logged In', 'email': 'siva@tudip.com', 'timestamp': '2026-02-12 07:52:59 UTC'}
+2026-02-12 13:22:59,609 | INFO | auth | user | message={'event': 'User Logged In', 'username': 'siva', 'email': 'siva@tudip.com', 'role': 'user', 'token_expiry': '2026-02-12 09:52:59 UTC', 'timestamp': '2026-02-12 07:52:59 UTC'}
+2026-02-12 13:23:22,466 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 19, 'timestamp': '2026-02-12 07:53:22 UTC'}
+2026-02-12 13:23:22,472 | INFO | auth | auth | message={'event': 'User Profile Retrieved', 'username': 'siva', 'email': 'siva@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2026-02-12 07:53:22 UTC'}
+2026-02-12 13:23:42,010 | WARNING | auth | security | message={'event': 'JWT Verification Failed', 'reason': 'Invalid or expired token', 'error': 'Signature verification failed.', 'timestamp': '2026-02-12 07:53:42 UTC'}
+2026-02-12 13:23:42,010 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/auth/me', 'reason': 'Invalid or expired token', 'timestamp': '2026-02-12 07:53:42 UTC'}
+2026-02-12 13:24:23,584 | DEBUG | auth | security | message={'event': 'JWT Verified', 'user_id': 19, 'timestamp': '2026-02-12 07:54:23 UTC'}
+2026-02-12 13:24:23,587 | INFO | auth | auth | message={'event': 'User Profile Retrieved', 'username': 'siva', 'email': 'siva@tudip.com', 'role': 'user', 'status': 'active', 'timestamp': '2026-02-12 07:54:23 UTC'}
+2026-02-12 13:24:50,060 | WARNING | auth | security | message={'event': 'JWT Verification Failed', 'reason': 'Invalid or expired token', 'error': 'Signature verification failed.', 'timestamp': '2026-02-12 07:54:50 UTC'}
+2026-02-12 13:24:50,060 | WARNING | auth | middleware | message={'event': 'Authorization Failed', 'path': '/auth/admins', 'reason': 'Invalid or expired token', 'timestamp': '2026-02-12 07:54:50 UTC'}
