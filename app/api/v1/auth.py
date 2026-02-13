@@ -170,15 +170,3 @@ async def logout(request: Request,credentials: HTTPAuthorizationCredentials = De
     user_info = getattr(request.state, "user", None)
     return service.logout_service(token, user_info)
 
-#------------------adding streaming platform-----------
-
-@router.post("/streaming")
-def display(movie_id:int,platform:str,db:Session=Depends(get_db)):
-    movie=db.query(Movies).filter(Movies.id==movie_id).first()
-    if not movie:
-        raise HTTPException(status_code=401, detail="movie doesnt exist")
-    movie.platform=platform
-    db.add(movie)
-    db.commit()
-    db.refresh(movie)
-    return {"platform entered successfully"}
